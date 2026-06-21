@@ -53,11 +53,6 @@ import type {
   MatchScheduleStatus,
 } from "@/lib/store";
 
-// ─────────────────────────────────────────────────────────────────────────────
-// VISUAL DIRECTION (match Home):
-// Neon-console / blueprint grid / glass panels.
-// Dashboard layout, tabs bar, and content card mimic screenshot.
-// ─────────────────────────────────────────────────────────────────────────────
 
 function formatPosted(iso: string) {
   const d = new Date(iso);
