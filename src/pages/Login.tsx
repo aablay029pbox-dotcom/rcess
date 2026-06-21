@@ -7,11 +7,6 @@ import { Input } from "@/components/ui/input";
 import { toast } from "sonner";
 import logo from "@/assets/logo.png";
 
-// ─────────────────────────────────────────────────────────────────────────────
-// VISUAL DIRECTION (match Home):
-// Neon-console / blueprint grid / glass panels.
-// ─────────────────────────────────────────────────────────────────────────────
-
 export default function Login() {
   const [, navigate] = useLocation();
   const [email, setEmail] = useState("");
