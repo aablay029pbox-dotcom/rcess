@@ -4,14 +4,6 @@ import { loadStore } from "@/lib/store";
 import { Card } from "@/components/ui/card";
 import logo from "@/assets/logo.png";
 
-// ─────────────────────────────────────────────────────────────────────────────
-// VISUAL DIRECTION (commit):
-// Neon-console / blueprint grid / glass panels.
-// - Dark, high-contrast, cyan + ember edge glows
-// - Subtle scanlines + grid background
-// - Large "terminal" panel with inset cards for countdown units
-// ─────────────────────────────────────────────────────────────────────────────
-
 
 type Ticks = { days: string; hours: string; minutes: string; seconds: string };
 
